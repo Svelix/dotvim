@@ -1,0 +1,17 @@
+This is my vim configuration. I do not suggest using it right now, cause I still need to clean up stuff a lot.
+
+Here are the installation instructions I copied from https://raw.github.com/nelstrom/dotvim/master/README :
+
+Installation:
+
+    git clone git://github.com/svelix/dotvim.git ~/.vim
+
+Create symlink:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
