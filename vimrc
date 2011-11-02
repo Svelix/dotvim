@@ -219,3 +219,8 @@ let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 " rchh
 set wildmenu
 nnoremap <F5> :GundoToggle<CR>
+
+" Show invisibles.
+nmap <leader>l :set list!<CR>
+set list
+set listchars=tab:▸-,trail:•

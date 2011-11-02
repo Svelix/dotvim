@@ -42,3 +42,7 @@ hi WarningMsg	term=standout  ctermfg=LightRed   guifg=Red
 hi Visual		term=reverse   cterm=reverse	  gui=NONE		guifg=white guibg=darkgreen
 hi FoldColumn                                                   guifg=LightBlue  guibg=darkblue
 hi rubySpaceError term=reverse   ctermbg=Red	  ctermfg=White guibg=#402020  guifg=White
+
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
