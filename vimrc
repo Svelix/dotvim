@@ -224,3 +224,6 @@ nnoremap <F5> :GundoToggle<CR>
 nmap <leader>l :set list!<CR>
 set list
 set listchars=tab:▸-,trail:•
+
+" Use ack-grep for searches in nertree (see NERD_tree_ACK)
+let g:path_to_search_app = "ack-grep"

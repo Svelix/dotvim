@@ -31,3 +31,6 @@
 [submodule "bundle/ToggleComment"]
 	path = bundle/ToggleComment
 	url = git://github.com/vim-scripts/ToggleComment.git
+[submodule "bundle/NERD_Tree-and-ack"]
+	path = bundle/NERD_Tree-and-ack
+	url = git://github.com/alimsky/NERD_Tree-and-ack.git
