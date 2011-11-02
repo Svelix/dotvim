@@ -34,3 +34,6 @@
 [submodule "bundle/NERD_Tree-and-ack"]
 	path = bundle/NERD_Tree-and-ack
 	url = git://github.com/alimsky/NERD_Tree-and-ack.git
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = git://github.com/tpope/vim-pathogen.git
