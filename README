@@ -4,7 +4,7 @@ Here are the installation instructions I copied from https://raw.github.com/nels
 
 Installation:
 
-    git clone git://github.com/svelix/dotvim.git ~/.vim
+    git clone git://github.com/Svelix/dotvim.git ~/.vim
 
 Create symlink:
 
