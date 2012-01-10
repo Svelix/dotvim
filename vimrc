@@ -228,3 +228,6 @@ set listchars=tab:▸-,trail:•
 
 " Use ack-grep for searches in nertree (see NERD_tree_ACK)
 let g:path_to_search_app = "ack-grep"
+
+" Disable toolbar
+set guioptions-=T
