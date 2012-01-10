@@ -44,5 +44,5 @@ hi FoldColumn                                                   guifg=LightBlue 
 hi rubySpaceError term=reverse   ctermbg=Red	  ctermfg=White guibg=#402020  guifg=White
 
 "Invisible character colors
-highlight NonText guifg=#4a4a59
-highlight SpecialKey guifg=#4a4a59
+highlight NonText guifg=#4a4a59 ctermfg=DarkGrey
+highlight SpecialKey guifg=#4a4a59 ctermfg=DarkGrey
