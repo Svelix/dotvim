@@ -231,3 +231,21 @@ let g:path_to_search_app = "ack-grep"
 
 " Disable toolbar
 set guioptions-=T
+" Add this type definition to your vimrc
+" or do
+" coffeetags --vim-conf >> <PATH TO YOUR VIMRC>
+" if you want your tags to include vars/objects do:
+" coffeetags --vim-conf --include-vars
+ let g:tagbar_type_coffee = {
+  \ 'kinds' : [
+  \   'f:functions',
+  \   'o:object'
+  \ ],
+  \ 'kind2scope' : {
+  \  'f' : 'object',
+  \   'o' : 'object'
+  \},
+  \ 'sro' : ".",
+  \ 'ctagsbin' : 'coffeetags',
+  \ 'ctagsargs' : '--include-vars ',
+  \}
