@@ -84,12 +84,12 @@ endfunction
 com! DiffSaved call s:DiffWithSaved()
 
 " make ä ö ü with "a and so on
-imap "a ä
-imap "o ö
-imap "u ü
-imap "A Ä
-imap "O Ö
-imap "U Ü
+" imap "a ä
+" imap "o ö
+" imap "u ü
+" imap "A Ä
+" imap "O Ö
+" imap "U Ü
 
 " map <F8> to write and execute make
 nmap <F8> :w<CR> :make!<CR>
