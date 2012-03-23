@@ -46,3 +46,9 @@
 [submodule "bundle/coffee-jasmine-snippets"]
 	path = bundle/coffee-jasmine-snippets
 	url = git://github.com/brendanjerwin/coffee-jasmine-snippets.git
+[submodule "bundle/vim-actionscript"]
+	path = bundle/vim-actionscript
+	url = git://github.com/jeroenbourgois/vim-actionscript.git
+[submodule "bundle/vim-PairTools"]
+	path = bundle/vim-PairTools
+	url = git://github.com/MartinLafreniere/vim-PairTools.git
