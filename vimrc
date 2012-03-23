@@ -226,11 +226,12 @@ nmap <leader>l :set list!<CR>
 set list
 set listchars=tab:▸-,trail:•
 
-" Use ack-grep for searches in nertree (see NERD_tree_ACK)
-let g:path_to_search_app = "ack-grep"
+" Use ack for searches in nertree (see NERD_tree_ACK)
+let g:path_to_search_app = "ack"
 
 " Disable toolbar
 set guioptions-=T
+
 " Add this type definition to your vimrc
 " or do
 " coffeetags --vim-conf >> <PATH TO YOUR VIMRC>
