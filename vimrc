@@ -120,6 +120,10 @@ nmap <silent> <M-Down> :call ScrollOtherWindow("down")<CR>
 nmap <silent> <M-Up> :call ScrollOtherWindow("up")<CR>
 nmap <silent> <M-j> :call ScrollOtherWindow("down")<CR>
 nmap <silent> <M-k> :call ScrollOtherWindow("up")<CR>
+nmap <silent> <D-Down> :call ScrollOtherWindow("down")<CR>
+nmap <silent> <D-Up> :call ScrollOtherWindow("up")<CR>
+nmap <silent> <D-j> :call ScrollOtherWindow("down")<CR>
+nmap <silent> <D-k> :call ScrollOtherWindow("up")<CR>
 
 fun! ScrollOtherWindow(dir)
 	if a:dir == "down"
