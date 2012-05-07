@@ -68,8 +68,8 @@ augroup END
 "	map ,e :e <C-R>=expand("%:p:h") . "\" <CR>
 "endif
 
-" Delete trailing spaces and replace Tabs with 2 Spaces
-command! FixTrailingSpaces :let _s=@/<Bar>:%s/\s*\r\?$//e<Bar>:%s/\t/  /e<Bar>:let @/=_s<Bar>:nohl
+" Delete trailing spaces
+command! FixTrailingSpaces :let _s=@/<Bar>:%s/\s*\r\?$//e<Bar>:let @/=_s<Bar>:nohl
 
 " tex.vim options
 let g:tex_fold_enabled=1
