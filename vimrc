@@ -1,3 +1,5 @@
+let g:mxml_syntax_folding = 1
+
 source ~/.vim/bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 

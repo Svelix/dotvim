@@ -54,7 +54,7 @@
 	url = git://github.com/Townk/vim-autoclose.git
 [submodule "bundle/actionscript"]
 	path = bundle/actionscript
-	url = git://github.com/jamestomasino/actionscript-vim-bundle.git
+	url = git://github.com/Svelix/actionscript-vim-bundle.git
 [submodule "bundle/HiLinkTrace"]
 	path = bundle/HiLinkTrace
 	url = git://github.com/kergoth/vim-HiLinkTrace.git
