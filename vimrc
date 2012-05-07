@@ -331,3 +331,18 @@ augroup plist
   endfun
   autocmd BufWritePost,FileWritePost *.plist call MyBinaryPlistWritePost()
 augroup END}
+
+" Math operations
+noremap <kMinus> <C-X>
+vnoremap <silent><kMinus> :<C-U>'<,'>s%\(-\?\d\+\)%\=submatch(1) - v:count1%g<CR>:noh<CR>gv
+noremap <kPlus> <C-A>
+vnoremap <silent><kPlus> :<C-U>'<,'>s%\(-\?\d\+\)%\=submatch(1) + v:count1%g<CR>:noh<CR>gv
+noremap <silent><kMultiply> :<C-U>s%\(-\?\d*\%#\d\+\)%\=submatch(1) * v:count1%<CR><C-O>h/\d\+/e<CR>:noh<CR>
+vnoremap <silent><kMultiply> :<C-U>'<,'>s%\(-\?\d\+\)%\=submatch(1) * v:count1%g<CR>:noh<CR>gv
+noremap <silent><kDivide> :<C-U>s%\(-\?\d*\%#\d\+\)%\=submatch(1) / v:count1%<CR><C-O> ?\d\+?e<CR>:noh<CR>
+vnoremap <silent><kDivide> :<C-U>'<,'>s%\(-\?\d\+\)%\=submatch(1) / v:count1%g<CR>:noh<CR>gv
+
+" Camelize and undersore lines
+" Haven't found a solution to use only parts of a line or visual blocks
+command! -range Camelize <line1>,<line2>s#_\(\l\)#\u\1#
+command! -range Underscore <line1>,<line2>s#\C\(\<\u[a-z0-9]\+\|[a-z0-9]\+\)\(\u\)#\l\1_\l\2#
