@@ -55,3 +55,6 @@
 [submodule "bundle/actionscript"]
 	path = bundle/actionscript
 	url = git://github.com/jamestomasino/actionscript-vim-bundle.git
+[submodule "bundle/HiLinkTrace"]
+	path = bundle/HiLinkTrace
+	url = git://github.com/kergoth/vim-HiLinkTrace.git
