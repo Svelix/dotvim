@@ -52,3 +52,6 @@
 [submodule "bundle/vim-PairTools"]
 	path = bundle/vim-PairTools
 	url = git://github.com/MartinLafreniere/vim-PairTools.git
+[submodule "bundle/autoclose"]
+	path = bundle/autoclose
+	url = git://github.com/Townk/vim-autoclose.git
