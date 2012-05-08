@@ -348,3 +348,6 @@ vnoremap <silent><kDivide> :<C-U>'<,'>s%\(-\?\d\+\)%\=submatch(1) / v:count1%g<C
 " Haven't found a solution to use only parts of a line or visual blocks
 command! -range Camelize <line1>,<line2>s#_\(\l\)#\u\1#
 command! -range Underscore <line1>,<line2>s#\C\(\<\u[a-z0-9]\+\|[a-z0-9]\+\)\(\u\)#\l\1_\l\2#
+
+" tags for actionscript
+let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'

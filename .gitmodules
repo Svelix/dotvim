@@ -42,7 +42,7 @@
 	url = git://github.com/vim-scripts/scratch.vim.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar.git
+	url = git://github.com/Svelix/tagbar.git
 [submodule "bundle/coffee-jasmine-snippets"]
 	path = bundle/coffee-jasmine-snippets
 	url = git://github.com/brendanjerwin/coffee-jasmine-snippets.git
