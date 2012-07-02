@@ -34,9 +34,6 @@ set helpheight=40
 
 set diffopt+=vertical,iwhite
 
-" only accept unix file format
-set fileformats=unix
-
 " vim-latex requires this
 set grepprg=grep\ -nH\ $*
 " IMPORTANT: win32 users will need to have 'shellslash' set so that latex
