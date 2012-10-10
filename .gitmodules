@@ -16,9 +16,6 @@
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "bundle/vim-yankring"]
-	path = bundle/vim-yankring
-	url = git://github.com/chrismetcalf/vim-yankring.git
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
 	url = git://github.com/tpope/vim-cucumber.git
@@ -64,3 +61,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/YankRing"]
+	path = bundle/YankRing
+	url = git://github.com/vim-scripts/YankRing.vim.git
