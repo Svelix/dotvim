@@ -21,7 +21,7 @@
 	url = git://github.com/tpope/vim-cucumber.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = git://github.com/Svelix/nerdtree.git
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
@@ -64,3 +64,15 @@
 [submodule "bundle/YankRing"]
 	path = bundle/YankRing
 	url = git://github.com/vim-scripts/YankRing.vim.git
+[submodule "bundle/xml"]
+	path = bundle/xml
+	url = git://github.com/othree/xml.vim.git
+[submodule "bundle/JavaDecompiler"]
+	path = bundle/JavaDecompiler
+	url = git://github.com/vim-scripts/JavaDecompiler.vim.git
+[submodule "bundle/ant"]
+	path = bundle/ant
+	url = git://github.com/teneighty/vim-ant.git
+[submodule "bundle/vcscommand"]
+	path = bundle/vcscommand
+	url = git://repo.or.cz/vcscommand
