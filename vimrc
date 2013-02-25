@@ -348,3 +348,6 @@ command! -range Underscore <line1>,<line2>s#\C\(\<\u[a-z0-9]\+\|[a-z0-9]\+\)\(\u
 
 " tags for actionscript
 let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'
+
+" treat - as part of words when completing
+set iskeyword+=-
